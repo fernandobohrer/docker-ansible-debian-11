@@ -1,6 +1,9 @@
 # Debian 11 Ansible Test Image
 
-[![Build, test and push docker image](https://github.com/fernandobohrer/docker-ansible-debian-11/actions/workflows/build-test-and-push-docker-image.yml/badge.svg?branch=main&event=push)](https://github.com/fernandobohrer/docker-ansible-debian-11/actions/workflows/build-test-and-push-docker-image.yml) [![Docker Pulls](https://badgen.net/docker/pulls/fernandobohrer/docker-ansible-debian-11?icon=docker&label=pulls)](https://hub.docker.com/r/fernandobohrer/docker-ansible-debian-11/) [![Docker Image Size](https://badgen.net/docker/size/fernandobohrer/docker-ansible-debian-11?icon=docker&label=image%20size)](https://hub.docker.com/r/fernandobohrer/docker-ansible-debian-11/)
+[![github actions workflow status](https://img.shields.io/github/actions/workflow/status/fernandobohrer/docker-ansible-debian-11/build-test-and-push-docker-image.yml?branch=main&event=push&style=flat-square&logo=github&logoColor=white&label=Build%2C%20test%20and%20push%20docker%20image&labelColor=black&cacheSeconds=300)](https://github.com/fernandobohrer/docker-ansible-debian-11/actions/workflows/build-test-and-push-docker-image.yml)
+[![docker pulls](https://img.shields.io/docker/pulls/fernandobohrer/docker-ansible-debian-11?style=flat-square&logo=docker&logoColor=white&label=pulls&labelColor=black&cacheSeconds=300)](https://hub.docker.com/r/fernandobohrer/docker-ansible-debian-11/)
+[![amd64 docker image size](https://img.shields.io/docker/image-size/fernandobohrer/docker-ansible-debian-11?arch=amd64&style=flat-square&logo=docker&logoColor=white&label=amd64%20image%20size&labelColor=black&cacheSeconds=300)](https://hub.docker.com/r/fernandobohrer/docker-ansible-debian-11/tags/)
+[![arm64 docker image size](https://img.shields.io/docker/image-size/fernandobohrer/docker-ansible-debian-11?arch=arm64&style=flat-square&logo=docker&logoColor=white&label=arm64%20image%20size&labelColor=black&cacheSeconds=300)](https://hub.docker.com/r/fernandobohrer/docker-ansible-debian-11/tags/)
 
 This repository contains a `Dockerfile` that is used to create a **Debian 11** based docker container image with `ansible` and `systemd` preinstalled.
 
